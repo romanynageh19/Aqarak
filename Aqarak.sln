@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqarak", "Aqarak\Aqarak.csproj", "{C616E85C-8880-4B43-8753-1B3182D2C0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarakCore", "AqarakCore\AqarakCore.csproj", "{6F4A3692-816C-4CB4-920C-6FB0923AA143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarakRepository", "AqarakRepository\AqarakRepository.csproj", "{F516F886-6EF1-4810-BCD0-2E87020DCD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarakService", "AqarakService\AqarakService.csproj", "{733BE6ED-44AD-424D-B473-C7C6B6290F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C616E85C-8880-4B43-8753-1B3182D2C0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C616E85C-8880-4B43-8753-1B3182D2C0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C616E85C-8880-4B43-8753-1B3182D2C0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C616E85C-8880-4B43-8753-1B3182D2C0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4A3692-816C-4CB4-920C-6FB0923AA143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4A3692-816C-4CB4-920C-6FB0923AA143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4A3692-816C-4CB4-920C-6FB0923AA143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4A3692-816C-4CB4-920C-6FB0923AA143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F516F886-6EF1-4810-BCD0-2E87020DCD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F516F886-6EF1-4810-BCD0-2E87020DCD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F516F886-6EF1-4810-BCD0-2E87020DCD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F516F886-6EF1-4810-BCD0-2E87020DCD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733BE6ED-44AD-424D-B473-C7C6B6290F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733BE6ED-44AD-424D-B473-C7C6B6290F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733BE6ED-44AD-424D-B473-C7C6B6290F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733BE6ED-44AD-424D-B473-C7C6B6290F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
