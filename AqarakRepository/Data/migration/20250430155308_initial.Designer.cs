@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace AqarakRepository.Data.Migrations
+namespace AqarakRepository.Data.migration
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20250407190334_secondCreate")]
-    partial class secondCreate
+    [Migration("20250430155308_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -61,8 +61,8 @@ namespace AqarakRepository.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Size")
-                        .HasColumnType("decimal(2,18)");
+                    b.Property<int>("Size")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

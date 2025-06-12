@@ -8,9 +8,9 @@ namespace AqarakCore.Entities
 {
     public class User:BaseEntity
     {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string UserType { get; set; }
+        public string Name { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string UserType { get; set; } = null!;
         public int Phone { get; set; }
 
     }

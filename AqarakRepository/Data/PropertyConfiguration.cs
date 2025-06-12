@@ -20,7 +20,7 @@ namespace AqarakRepository.Data
             builder.Property(x => x.Address).IsRequired();
             builder.Property(x => x.Description).IsRequired();
             builder.Property(x => x.LocationId).IsRequired();
-            builder.Property(x => x.Size).IsRequired().HasColumnType("decimal(2,18)");
+            //builder.Property(x => x.Size).IsRequired().HasColumnType("decimal(18,2)");
             builder.HasOne(x => x.User).WithMany().HasForeignKey(x => x.OwnerId);
 
         }
