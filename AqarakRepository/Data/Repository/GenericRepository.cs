@@ -30,5 +30,21 @@ namespace AqarakRepository.Data.Repository
         {
             return await _dbcontext.Set<T>().FirstAsync(x=>x.Id==id);
         }
+        public async Task<IEnumerable<MyProperty>> SearchAsync(string query)
+        {
+            var lowerQuery = query.ToLower();
+            bool isNumeric = decimal.TryParse(query, out var priceValue);
+
+            return await _dbcontext.Set<MyProperty>()
+                .Where(p =>
+                    p.City.ToLower().Contains(lowerQuery) ||
+                    p.Description.ToLower().Contains(lowerQuery) ||
+                    (isNumeric && p.Price == priceValue)
+                )
+                .ToListAsync();
+        }
+
+
+
     }
 }

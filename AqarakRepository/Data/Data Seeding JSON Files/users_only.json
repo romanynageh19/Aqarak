@@ -1,0 +1,191 @@
+[
+  {
+    
+    "Name": "أحمد سمير",
+    "Phone": "01012345678",
+    "UserType":"owner",
+    "Email": "ahmed.samir@example.com"
+  },
+  {
+    
+    "Name": "منى حسن",
+    "Phone": "01123456789",
+    "UserType":"owner",
+    "Email": "mona.hassan@example.com"
+  },
+  {
+   
+    "Name": "ياسر عبد الله",
+    "Phone": "01234567890",
+    "UserType":"owner",
+    "Email": "yasser.abdallah@example.com"
+  },
+  {
+   
+    "Name": "ليلى عبد الرحمن",
+    "Phone": "01098765432",
+    "UserType":"owner",
+    "Email": "laila.abdelrahman@example.com"
+  },
+  {
+    
+    "Name": "محمود نصر",
+    "Phone": "01512345678",
+    "UserType":"owner",
+    "Email": "mahmoud.nasr@example.com"
+  },
+  {
+    
+    "Name": "فاطمة علي",
+    "Phone": "01045678901",
+    "UserType":"owner",
+    "Email": "fatma.ali@example.com"
+  },
+  {
+   
+    "Name": "عمرو حسن",
+    "Phone": "01211223344",
+    "UserType":"owner",
+    "Email": "amr.hassan@example.com"
+  },
+  {
+  
+    "Name": " اشرف جلال",
+    "Phone": "01253638937",
+    "UserType":"owner",
+    "Email": "owner0@example.com"
+  },
+  {
+   
+    "Name": " اسلام جمال",
+    "Phone": "01043914746",
+    "UserType":"owner",
+    "Email": "owner1@example.com"
+  },
+  {
+    
+    "Name": " سمير عصام",
+    "Phone": "01163474868",
+    "UserType":"owner",
+    "Email": "owner2@example.com"
+  },
+  {
+    
+    "Name": " حاتم خالد",
+    "Phone": "01115051531",
+    "UserType":"owner",
+    "Email": "owner3@example.com"
+  },
+  {
+    "OwnerId": 204,
+    "Name": "مالك 4",
+    "Phone": "01481848046",
+    "UserType":"owner",
+    "Email": "owner4@example.com"
+  },
+  {
+    "OwnerId": 205,
+    "Name": "مالك 5",
+    "Phone": "01381507893",
+    "UserType":"owner",
+    "Email": "owner5@example.com"
+  },
+  {
+    "OwnerId": 206,
+    "Name": "مالك 6",
+    "Phone": "01074498461",
+    "UserType":"owner",
+    "Email": "owner6@example.com"
+  },
+  {
+    "OwnerId": 207,
+    "Name": "مالك 7",
+    "Phone": "01836198833",
+    "UserType":"owner",
+    "Email": "owner7@example.com"
+  },
+  {
+    "OwnerId": 208,
+    "Name": "مالك 8",
+    "Phone": "01443339575",
+    "UserType":"owner",
+    "Email": "owner8@example.com"
+  },
+  {
+    "OwnerId": 209,
+    "Name": "مالك 9",
+    "Phone": "01243650635",
+    "UserType":"owner",
+    "Email": "owner9@example.com"
+  },
+  {
+    "OwnerId": 210,
+    "Name": "مالك 10",
+    "Phone": "01963255790",
+    "UserType":"owner",
+    "Email": "owner10@example.com"
+  },
+  {
+    "OwnerId": 211,
+    "Name": "مالك 11",
+    "Phone": "01775401485",
+    "UserType":"owner",
+    "Email": "owner11@example.com"
+  },
+  {
+    "OwnerId": 212,
+    "Name": "مالك 12",
+    "Phone": "01270766596",
+    "UserType":"owner",
+    "Email": "owner12@example.com"
+  },
+  {
+   
+    "Name": "مالك 13",
+    "Phone": "01716072022",
+    "UserType":"owner",
+    "Email": "owner13@example.com"
+  },
+  {
+    
+    "Name": "مالك 14",
+    "Phone": "01156655761",
+    "UserType":"owner",
+    "Email": "owner14@example.com"
+  },
+  {
+    
+    "Name": "مالك 15",
+    "Phone": "01259424619",
+    "UserType":"owner",
+    "Email": "owner15@example.com"
+  },
+  {
+    
+    "Name": "مالك 16",
+    "Phone": "01129851614",
+    "UserType":"owner",
+    "Email": "owner16@example.com"
+  },
+  {
+ 
+    "Name": "مالك 17",
+    "Phone": "01973473895",
+    "UserType":"owner",
+    "Email": "owner17@example.com"
+  },
+  {
+  
+    "Name": "مالك 18",
+    "Phone": "01748638028",
+    "UserType":"owner",
+    "Email": "owner18@example.com"
+  },
+  {
+  
+    "Name": "مالك 19",
+    "Phone": "01597725589",
+    "UserType":"owner",
+    "Email": "owner19@example.com"
+  }
+]

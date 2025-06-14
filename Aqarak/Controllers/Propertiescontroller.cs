@@ -37,5 +37,21 @@ namespace Aqarak.Controllers
             return Ok(prop);
 
         }
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<MyProperty>>> SearchProperties([FromQuery] string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+                return BadRequest("Search query is required.");
+
+            var results = await _propertyRepoitory.SearchAsync(query);
+
+            if (!results.Any())
+                return NotFound("No properties match your search.");
+
+            return Ok(results);
+        }
+
+
     }
+
 }

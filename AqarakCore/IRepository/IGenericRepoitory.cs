@@ -11,6 +11,7 @@ namespace AqarakCore.IRepository
     {
         Task<T> GetpropertyAsync(int id);
         Task<IEnumerable<T>> GetAllpropertyAsync();
+        Task<IEnumerable<MyProperty>> SearchAsync(string query);
 
     }
 }

@@ -14,6 +14,8 @@ using System.Runtime.InteropServices;
 using AqarakCore.IdentityEnities;
 using AqarakCore.Iservice;
 using AqarakService.Auth;
+using Aqarak.Helper;
+using Microsoft.Extensions.FileProviders;
 
 namespace Aqarak
 {
@@ -40,6 +42,8 @@ namespace Aqarak
            
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddAutoMapper(typeof(profilesMaper).Assembly);
+
 
             var app = builder.Build();
             using var scope = app.Services.CreateScope();
@@ -54,6 +58,8 @@ namespace Aqarak
             {
                 await _dbcontex.Database.MigrateAsync();
                 await _dbcontexidentity.Database.MigrateAsync();
+                
+                await DataSeeding.DataSeed(_dbcontex);
                 var user = services.GetRequiredService<UserManager<AppUserIdentity>>();
                 await ApplicationUserSeeding.UserSeeding(user);
 
@@ -73,6 +79,15 @@ namespace Aqarak
                 app.UseSwagger();
                 app.UseSwaggerUI(); 
             }
+            app.UseStaticFiles(); 
+
+            
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                RequestPath = "/images",  
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(builder.Environment.WebRootPath, "images"))
+            });
 
             app.UseHttpsRedirection();
 

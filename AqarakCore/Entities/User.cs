@@ -11,7 +11,7 @@ namespace AqarakCore.Entities
         public string Name { get; set; } = null!;
         public string Email { get; set; } = null!;
         public string UserType { get; set; } = null!;
-        public int Phone { get; set; }
+        public string Phone { get; set; }
 
     }
 }
